@@ -28,6 +28,9 @@ gem 'redis', '~> 4.0'
 # Pundit for Authorization
 gem 'pundit'
 
+# Token for Authentication
+gem 'simple_token_authentication'
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 
